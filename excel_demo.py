@@ -1,6 +1,6 @@
 import pandas as pd
 import datetime
-fname = '/Users/zhangyukui/Documents/2020s1.xlsx'
+fname = './2020s1.xlsx'
 ef = pd.ExcelFile(fname)
 print(ef.sheet_names)
 df1 = pd.read_excel(fname,sheet_name='甘特')
